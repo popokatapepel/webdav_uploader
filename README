@@ -1,0 +1,12 @@
+Programm to upload big directories to owncloud or any other webdav rescource. Since there is a limit in file size for uploading, this sripts pack the content splits the archive, loads the parts to webdav, cats and unpacks the data.
+
+Setup install all the software described in depends.sh at first.
+
+To run the uploader use uploader as su. The first parameter needs to be the dir you want to upload.
+E.g:
+ 	sudo ./uploader.sh /home
+
+In the webdav a new folder uploader will be created. Each job receives an ID in which you will find your data
+
+
+As allway no warrenty ;D
